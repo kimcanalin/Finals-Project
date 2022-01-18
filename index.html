@@ -6,13 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wordscapes</title>
-
     <style>
-        .grid {
+        #restriction {
+            color: red;
+        }
+
+        .word-box {
+            text-align: center;
+            width: 550px;
+            height: 550px;
             display: flex;
             flex-wrap: wrap;
-            width: 200px;
-            height: 200px;
+        }
+
+        .box {
+            border: 1px solid black;
+            height: 50px;
+            width: 50px;
+        }
+
+        .grid {
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            width: 160px;
+            height: 160px;
         }
 
         .letters {
@@ -29,18 +47,28 @@
 </head>
 
 <body>
-    <h1>Instruction: Form a word out of the given letters.</h1>
+    <h1>Instruction: Form a word out of the given letters. <br><span id="restriction"><i>Letter repetition is not
+                allowed.</i></span></h1>
+
 
     <div class="start">
         <button onclick="generateBoard()">
-            Start 
+            Start
         </button>
+    </div>
+
+    <div class="word-box">
+
     </div>
 
     <div class="results">
 
     </div>
-    
+
+    <div class="choices">
+
+    </div>
+
     <div class="grid">
 
     </div>
