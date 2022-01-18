@@ -153,6 +153,8 @@ function checkWord() {
                 document.querySelectorAll('.box')[41].innerHTML = 'e'
                 document.querySelectorAll('.box')[51].innerHTML = 'r'
             } 
+            
+            clearWord()
         }
     }
 
