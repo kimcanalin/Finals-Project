@@ -1,0 +1,58 @@
+#restriction {
+    color: red;
+}
+
+.word-box {
+    text-align: center;
+    width: 330px;
+    height: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.box {
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+
+}
+
+.grid {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 160px;
+    margin-left: 280px;
+    margin-top: 50px;
+    color: aliceblue;
+    font-size: 40px;
+    font-family:'times';
+}
+
+.letters {
+    display: flex;
+}
+
+.tiles {
+    height: 50px;
+    width: 50px;
+    border: 2px solid brown ;
+    border-radius: 15px;
+    margin-left:5px;
+
+}
+
+.container{
+    background-image: url('background1.jpg');
+    background-size: cover;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 20px;
+    font-family: 'Modak', cursive; 
+    font-size: 15px;
+    color:cornflowerblue;
+    text-align: center;
+    padding-bottom: 50px;
