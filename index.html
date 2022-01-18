@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordscapes</title>
+
+    <style>
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            width: 200px;
+            height: 200px;
+        }
+
+        .letters {
+            display: flex;
+        }
+
+        .tiles {
+            height: 50px;
+            width: 50px;
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Instruction: Form a word out of the given letters.</h1>
+
+    <div class="start">
+        <button onclick="generateBoard()">
+            Start 
+        </button>
+    </div>
+
+    <div class="results">
+
+    </div>
+    
+    <div class="grid">
+
+    </div>
+
+    <div class="selected-letters">
+
+    </div>
+
+    <div class="pass">
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
